@@ -15,10 +15,14 @@ $(function(){
 
     var locations  = [
         "airplane",
+        "amusement_park",
         "bank",
+        "bar",
         "beach",
+        "board_game_con",
         "broadway_theater",
         "casino",
+        "carnival",
         "cathedral",
         "circus_tent",
         "corporate_party",
@@ -27,20 +31,27 @@ $(function(){
         "embassy",
         "hospital",
         "hotel",
+        "ice_hockey_stadium",
         "military_base",
         "movie_studio",
+        "night_club",
         "ocean_liner",
         "passenger_train",
+        "pet_store",
         "pirate_ship",
         "polar_station",
         "police_station",
+        "prison",
+        "public_park",
         "restaurant",
         "school",
         "service_station",
         "space_station",
         "submarine",
         "supermarket",
-        "university"
+        "theatre",
+        "university",
+        "zoo"
     ];
 
     var custom_locations = store.get('custom_locations') || {};
